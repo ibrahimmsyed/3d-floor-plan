@@ -415,6 +415,8 @@
 		if( activeItem ) {
 			classie.remove(activeItem, 'list__item--active');
 		}
+		//
+
 		// list item gets class active
 		classie.add(spacesEl.querySelector('li[data-space="' + spacerefval + '"]'), 'list__item--active');
 
@@ -457,7 +459,13 @@
 			});
 		}
 		// map pin gets selected
-		classie.add(mallLevelsEl.querySelector('.pin[data-space="' + spaceref + '"]'), 'pin--active');
+		console.log(spaceref);
+		classie.add(mall, 'mall--content-open');
+		classie.add(mall, 'inactive');
+		classie.add(mall.querySelector('#levels'), 'inactive');
+		classie.add(mall.querySelector('.level.level--current'), 'inactive');
+
+		classie.add(mallLevelsEl.querySelector('.plan[data-plan="' + spaceref + '"]'), 'plan--active');
 	}
 
 	/**
