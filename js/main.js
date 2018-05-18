@@ -178,7 +178,7 @@
 				// open level
 				showLevel(level);
 				// open content for this space
-				openContent(spacerefval);
+				//openContent(spacerefval);
 			});
 		});
 
@@ -459,13 +459,13 @@
 			});
 		}
 		// map pin gets selected
-		console.log(spaceref);
+		/*console.log(spaceref);
 		classie.add(mall, 'mall--content-open');
 		classie.add(mall, 'inactive');
 		classie.add(mall.querySelector('#levels'), 'inactive');
 		classie.add(mall.querySelector('.level.level--current'), 'inactive');
 
-		classie.add(mallLevelsEl.querySelector('.plan[data-plan="' + spaceref + '"]'), 'plan--active');
+		classie.add(mallLevelsEl.querySelector('.plan[data-plan="' + spaceref + '"]'), 'plan--active');*/
 	}
 
 	/**
