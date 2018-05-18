@@ -1,0 +1,29 @@
+path {stroke: none !important;}
+#path18{fill: #d4d4d4 !important;}
+.levels,.mall{width:100%;height:100%;}
+.surroundings{display: none !important;}
+.levels {position: absolute;top: 0;left:5%;margin:0;}
+.spaces-list,.content{display: none;}
+.spaces-list.active{display: block;}
+.mall.mall--content-open,.mall.mall--content-open.inactive,.levels.inactive,.level.level--current.inactive{transform: none;-webkit-transform:none;transition-duration: 1s;}
+.main{width:100%;}
+.pin--1-1 {top: 19vmin;left: 35vmin;}
+.pin--1-2 {top: 13vmin;left: 100vmin;}
+.pin--1-3 {top: 15vmin;left: 150vmin;}
+.pin--1-4 {top: 40vmin;left: 168vmin;}
+.pin--1-5 {top: 50vmin;left: 179vmin;}
+.pin--1-6 {top: 72vmin;left: 157vmin;}
+.pin--1-7 {top: 80vmin;left: 142vmin;}
+.pin--1-8 {top: 45vmin;left: 85vmin;}
+.levels.inactive .plan{opacity: 0.5;}
+.levels.inactive .plan.plan--active{opacity: 1;}
+.levels.inactive{left:0;}
+.close-plan{font-size: 1.5rem;position: absolute;top: 3em;left: 0.5em;}
+.grouped-by-category [data-category='1']:first-child::before, .grouped-by-category :not([data-category='1']) + [data-category='1']::before {content: 'Departments';}
+.level__pins{z-index:-1;}
+.mall.mall--content-open.inactive{width: calc(100% - 300px);}
+.open-search, .close-search {display: none !important}
+path#path14 {fill: none !important;stroke: none;}
+.plan {fill: #999 !important;stroke:#ccc !important;stroke-width:5}
+.trm-plan-media.plan--active, .trm-plan-media:hover {fill: #1689ca !important}
+.levels--open .level, .levels--open .level::after {transition: opacity 1s, transform 1s !important;}
