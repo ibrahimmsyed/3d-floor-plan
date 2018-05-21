@@ -1,19 +1,7 @@
-/**
- * main.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2016, Codrops
- * http://www.codrops.com
- */
+
 ;(function(window) {
 
-	'use strict';
-
-	// helper functions
-	// from https://davidwalsh.name/vendor-prefix
+	'use strict'; 
 	var prefix = (function () {
 		var styles = window.getComputedStyle(document.documentElement, ''),
 			pre = (Array.prototype.slice.call(styles).join('').match(/-(moz|webkit|ms)-/) || (styles.OLink === '' && ['', 'o']))[1],

@@ -729,7 +729,7 @@ button:focus {
 }
 
 .list__item::after {
-	content: 'L' attr(data-level) ' / ' attr(data-space);
+	content: 'F2'  /* 'attr(data-level) / ' attr(data-space) */;
 	font-size: 0.65em;
 	line-height: 3;
 	position: absolute;

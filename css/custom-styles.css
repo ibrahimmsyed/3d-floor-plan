@@ -1,11 +1,31 @@
 path {stroke: none !important;}
+body{ background: #FFF; overflow: hidden; font-family: 'Roboto', sans-serif;}
 #path18{fill: #d4d4d4 !important;}
-.levels,.mall{width:100%;height:100%;}
+.levels,.mall{width:calc(100vw - 300px);}
+.levels{height:100%; }
+.mall{height:82%;margin-top: 8%}
 .surroundings{display: none !important;}
 .levels {position: absolute;top: 0;left:5%;margin:0;}
 .spaces-list,.content{display: none;}
 .spaces-list.active{display: block;}
-.mall.mall--content-open,.mall.mall--content-open.inactive,.levels.inactive,.level.level--current.inactive{transform: none;-webkit-transform:none;transition-duration: 1s;}
+.mall.mall--content-open,.mall.mall--content-open.inactive,.levels.inactive,.level.level--current.inactive{
+      transform: none;-webkit-transform:none;transition-duration: 1s;
+      
+}
+
+.mallnav{ display: none;}
+/* .mall.mall--content-open .levels{
+      transform: rotateX(0deg) rotateZ(-47deg) translateZ(-15vmin);
+      left: 5%;
+}
+.mall.mall--content-open{
+      transform: none
+}
+.mall.mall--content-open{
+      margin-top: 14%;
+      transition: 0.5s ease-in
+} */
+.level{transition-duration: 1s;}    
 .main{width:100%;}
 .pin--1-1 {top: 19vmin;left: 35vmin;}
 .pin--1-2 {top: 13vmin;left: 100vmin;}
@@ -34,3 +54,20 @@ path#path14 {fill: none !important;stroke: none;}
 .trm-analytics-insights.plan--active, .trm-analytics-insights:hover {fill:#126031 !important}
 .trm-sales.plan--active, .trm-sales:hover {fill:#ce8129 !important}
 .trm-marketing.plan--active, .trm-marketing:hover {fill:#cdcb2b !important}
+.list__item.nav--active a{ color: #FFF; font-weight: bold}
+.codrops-header{ background: #049bcd; width: 100%; padding: 2em 1em}
+.codrops-header h1{ color: #FFF; font-size: 24px; font-weight: 700} 
+.codrops-header h1 span{ font-weight: 300; }
+.spaces-list{padding: 0em 0 1em;top: 5%;right: 4%; background: #1e282e; border-radius: 5px 5px 0 0}
+.list__item {line-height: 1.8;padding: 8px 0; border-top: 1PX solid #2f4049}
+.list__item:first-child{ border: 0}
+.grouped-by-category [data-category='1']:first-child::before, .grouped-by-category :not([data-category='1']) + [data-category='1']::before {
+      content: 'Departments - Floor II';
+      top: -2.1em;
+}
+.grouped-by-category [data-category='1']:first-child::before, .grouped-by-category :not([data-category='1']) + [data-category='1']::before {     
+      color: #1297c3;
+      font-weight: bold
+} 
+.level--1::after{ content: "F2"}
+.list__item::after{ padding: 1em 0.5em}
