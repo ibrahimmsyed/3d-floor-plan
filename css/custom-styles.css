@@ -25,5 +25,12 @@ path {stroke: none !important;}
 .open-search, .close-search {display: none !important}
 path#path14 {fill: none !important;stroke: none;}
 .plan {fill: #999 !important;stroke:#ccc !important;stroke-width:5}
-.trm-plan-media.plan--active, .trm-plan-media:hover {fill: #1689ca !important}
-.levels--open .level, .levels--open .level::after {transition: opacity 1s, transform 1s !important;}
+.trm-media.plan--active, .trm-media:hover {fill: #1689ca !important}
+.trm-strategic.plan--active, .trm-strategic:hover {fill:#cdcb2b !important}
+.trm-pm-quality.plan--active, .trm-pm-quality:hover {fill:#ce5627 !important}
+.trm-account-sales.plan--active, .trm-account-sales:hover {fill:#0f395e !important}
+.trm-creative-content.plan--active, .trm-creative-content:hover {fill:#93c840 !important}
+.trm-usretail.plan--active, .trm-usretail:hover {fill:#19bfe8 !important}
+.trm-analytics-insights.plan--active, .trm-analytics-insights:hover {fill:#126031 !important}
+.trm-sales.plan--active, .trm-sales:hover {fill:#ce8129 !important}
+.trm-marketing.plan--active, .trm-marketing:hover {fill:#cdcb2b !important}
